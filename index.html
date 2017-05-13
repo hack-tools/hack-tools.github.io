@@ -2,14 +2,113 @@
 <html>
 <head>
   <title>Hackathon Tools</title>
+  <style type="text/css">
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+    body {
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      background:  #fff;
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .pane {
+      width: 32%;
+      padding: 10px;
+      background: #fff;
+      border-radius: 3px;
+      margin: 5px;
+      flex: 1;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .pane h3 a {
+      display: block;
+      background: #5e889e;
+      height: 40px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      line-height: 40px;
+      font-size: 20px;
+      font-weight: normal;
+    }
+
+    section,
+    footer {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    footer {
+      text-align: center;
+    }
+
+    section {
+      display:flex;
+      justify-content: space-between;
+    }
+
+    p {
+      line-height: 150%;
+      font-size: 16px;
+    }
+
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+
+<header>
+  <img class="logo" src="https://avatars2.githubusercontent.com/u/28672722">
+
+  <h1>HackTools</h1>
+  <p>Tools, resources, tips and other "hackathon related" stuff.</p>
+</header>
+
 <section>
   <div class="pane">
-    <h3><a href="">HackTools</a></h3>
-    <p></p>
+    <h3><a href="https://github.com/hack-tools/hacktools">HackTools</a></h3>
+    <p><a class="github-button" href="https://github.com/hack-tools/hacktools" data-icon="octicon-star" data-show-count="true" aria-label="Star hack-tools/hacktools on GitHub">Star</a></p>
+    <p>Tools, software and services to create a fast MVP, useful for Hackathons.</p>
+  </div>
+
+  <div class="pane">
+    <h3><a href="https://github.com/hack-tools/hackanalysis">HackAnalysis</a></h3>
+    <p><a class="github-button" href="https://github.com/hack-tools/hackanalysis" data-icon="octicon-star" data-show-count="true" aria-label="Star hack-tools/hackanalysis on GitHub">Star</a></p>
+    <p>A list of methods and a workflow to validate, review and create reports
+    for GitHub projects. Useful for Hackathons.</p>
+  </div>
+
+  <div class="pane">
+    <h3><a href="https://github.com/hack-tools/hackorganizing">HackOrganizing</a></h3>
+    <p><a class="github-button" href="https://github.com/hack-tools/hackorganizing" data-icon="octicon-star" data-show-count="true" aria-label="Star hack-tools/hackorganizing on GitHub">Star</a></p>
+    <p>A list of needs, lists and tips to run a Hackathon.</p>
   </div>
 </section>
+
+<footer>
+  <p>Created by <a href="http://www.theodorosploumis.com/en">TheodorosPloumis</a></p>
+</footer>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 </html>
