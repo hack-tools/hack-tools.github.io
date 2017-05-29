@@ -49,16 +49,20 @@ h3 {
   margin: 0;
 }
 
-.pane h3 a {
+.pane h3 {
   display: block;
   background: #5e889e;
   height: 40px;
-  text-decoration: none;
   text-align: center;
   color: #fff;
   line-height: 40px;
   font-size: 20px;
   font-weight: normal;
+}
+
+.pane a {
+  text-decoration: none;
+  color:  #000;
 }
 
 section,
